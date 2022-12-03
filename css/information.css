@@ -53,6 +53,7 @@ a.nav-link:hover {
     font-size: 15pt;
 }
 
+
 /* content */
 .container{
     height: auto;
@@ -137,6 +138,7 @@ a.nav-link:hover {
     justify-content: center;
     align-items: center;
 }
+
 
 /* 테블릿 */
 @media screen and (min-width:768px) and (max-width:1023px){
