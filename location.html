@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>유치원 다녀왔습니다</title>
     <link rel="stylesheet" href="css/location.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet">
+      <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+      <script src="js/location.js"></script> 
 </head>
 <body>
     <div class="nav">
@@ -43,25 +48,25 @@
                 지역구분
             </div>
             <div class="chkbox">
-                <input type="checkbox" id="j1">서울전체
-                <input type="checkbox" id="j2">경기전체
-                <input type="checkbox" id="j3">제주
+                <input type="checkbox" id="j1" value="" checked>전체
+                &nbsp;&nbsp;<input type="checkbox" id="j1" value="서울">서울전체
+                &nbsp;&nbsp;<input type="checkbox" id="j1" value="경기">경기전체
+                &nbsp;&nbsp;<input type="checkbox" id="j1" value="제주">제주
             </div>
         </div>
         <div class="search">
             <div class="color">
-                결과내 검색
+                검색
             </div>
-            <div class="search-box">
-                펫
+            <input type="text" id="searchBox" class="search-box">
+            <div class="icon">
+                <i class='bx bx-search'></i>
             </div>
         </div>
-    </div>
     
-    <div class="container">
-        
-    </div>
-        
+        <div class="container3">
+        </div>     
+
     <footer>
         <div class="footer-radius">
         </div>
