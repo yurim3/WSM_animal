@@ -278,6 +278,76 @@ span {
     }
 }
 
+@media (max-width:767px) {
+    .curtain .c {
+        width: 320px;
+        height: 30px;
+    }
+
+    ul#nav-list {
+        display: flex;
+        column-gap: 6rem;
+    }
+
+    a.nav-link {
+        font-size: 18px;
+    }
+
+    /* content */
+    .promote {
+        height: 150px;
+        font-size: 30px;
+    }
+
+    .promote span {
+        font-size: 30px;
+    }
+
+    /* .pet-title {
+        width: 687.2px;
+        font-size: 15px;
+        margin: 5% 0 1% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .pet-title {
+        /* width: 687.2px; */
+        width: 100%;
+        font-size: 20px;
+        margin: 3% 0 1% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pet-tip {
+        width: 22rem;
+        height: 6rem;
+        margin: 2% 0 0 4%;
+    }
+    
+    /* 펫 팁 카드 */
+    .tip-img {
+        width: 78px;
+        height: 77px;
+        margin: 7px 0 7px 10px;
+    }
+
+    .tip-text {
+        margin: 5.5% 0 0 3.5%;
+    }
+
+    .tip-title {
+        font-size: 15px;
+    }
+
+    .tip-content {
+        font-size: 13px;
+    }
+}
+
 /* footer */
 footer{
     height: 60px;
