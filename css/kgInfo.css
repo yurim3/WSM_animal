@@ -1,0 +1,137 @@
+body {
+    background-color: #254995;
+    margin: auto;
+    overflow: auto;
+}
+
+/* nav */
+.nav {
+    padding: 1px;
+    height: 40px;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    justify-content: center;
+    font-size: large;
+}
+
+ul#nav-list {
+    display: flex;
+    column-gap: 14rem;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+}
+
+.curtain {
+    display: flex;
+    flex-direction: row;
+}
+
+.curtain .c {
+    background-color: #ffffff;
+    width: 320px;
+    height: 75px;
+    border-radius: 0% 0% 300% 300%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.nav-link {
+    color: black;
+    font-weight: bold;
+}
+
+a.nav-link:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+/* content */
+.container{
+    height: auto;
+    margin: 10px 40px 0px 40px;
+    background-color: #D3D3D3;
+    border-radius: 30px 30px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.kg-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 5%;
+}
+
+.kg-img {
+    width: 350px;
+    height: 300px;
+    float: left;
+    border-radius: 1rem;
+}
+
+.kg-text {
+    width: 380px;
+}
+
+.kg-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kg-content {
+    font-size: 15px;
+    color: #484848;
+}
+
+.kg-time {
+    font-size: 15px;
+    color: #484848;
+}
+
+.dot {
+    color: #000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kg-review {
+    border-width: 0 0 0 1px;
+    border-style: solid;
+    border-color: #000080;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.kg-review-img {
+    width: 430px;
+    height: 410px;
+}
+
+/* footer */
+footer{
+    height: 60px;
+    background-color: #000080;
+    margin: 0px;
+}
+
+footer .footer-radius{
+    height: 35px;
+    background-color: #D3D3D3;
+    margin: 0px 40px 0px 40px;
+    border-radius: 0px 0px 20px 20px;
+}
