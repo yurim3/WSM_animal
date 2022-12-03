@@ -68,7 +68,7 @@ a.nav-link:hover {
     width: 15.1875rem;
     height: 40px;
     background-color: #ffffff;
-    margin: 2% 0 0 12.5%;
+    margin: 2% 0 0 14%;
     border-radius: 0.3rem;
 }
 
@@ -121,7 +121,7 @@ a.nav-link:hover {
 .card-row {
     display: flex;
     flex-flow: wrap;
-    gap: 1.875rem 1.87rem;
+    gap: 5rem;
     width: 100%;
     margin: 4% 0 0 0;
     justify-content: center;
@@ -131,12 +131,155 @@ a.nav-link:hover {
 .card-row2 {
     display: flex;
     flex-flow: wrap;
-    gap: 1.875rem 1.87rem;
+    gap: 5rem;
     width: 100%;
     margin: 3% 0 0 0;
     justify-content: center;
     align-items: center;
 }
+
+/* 테블릿 */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .nav {
+        padding: 1px;
+        height: 40px;
+        background-color: #ffffff;
+    }
+    
+    ul {
+        list-style: none;
+        justify-content: center;
+        font-size: large;
+    }
+    
+    ul#nav-list {
+        display: flex;
+        column-gap: 14rem;
+        justify-content: center;
+        flex-direction: row;
+        padding: 0;
+    }
+    
+    .curtain {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .curtain .c {
+        background-color: #ffffff;
+        width: 320px;
+        height: 75px;
+        border-radius: 0% 0% 300% 300%;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a.nav-link {
+        color: black;
+        font-weight: bold;
+    }
+    
+    a.nav-link:hover {
+        color: black;
+        font-weight: bold;
+        font-size: 15pt;
+    }
+    
+    /* content */
+    .container{
+        height: auto;
+        margin: 10px 40px 0px 40px;
+        background-color: #D3D3D3;
+        border-radius: 30px 30px 0px 0px;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    
+    /* filter */
+    .filter-container {
+        width: 15.1875rem;
+        height: 40px;
+        background-color: #ffffff;
+        margin: 2% 0 0 14%;
+        border-radius: 0.3rem;
+    }
+    
+    .filter-img {
+        width: 25px;
+        height: 25px;
+        margin: 10px;
+        float: left;
+    }
+    
+    .filter-text {
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    /* card */
+    .card-white-bg {
+        width: 15.5rem;
+        background-color: white;
+        border-radius: 0.3rem;
+    }
+    
+    .kg-title{
+        font-size: 14px;
+        color: #525252;
+    }
+    
+    .kg-name {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .kg-content {
+        font-size: 15px;
+        color: #929292;
+        margin-top: 5px;
+    }
+    
+    .kg-img {
+        width: 15.5rem;
+        height: 12rem;
+    }
+    
+    .kg-info {
+        margin: 0 2% 0 2%;
+    }
+    
+    .card-row {
+        display: flex;
+        flex-flow: wrap;
+        gap: 5rem;
+        width: 100%;
+        margin: 4% 0 0 0;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-row2 {
+        display: flex;
+        flex-flow: wrap;
+        gap: 5rem;
+        width: 100%;
+        margin: 3% 0 0 0;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* 모바일 */
+@media screen and (min-width:767px){
+
+}
+
 
 /* footer */
 footer{
