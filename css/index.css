@@ -7,6 +7,142 @@ body {
 /* nav */
 .nav {
     padding: 1px;
+    height: 60px;
+    background-color: #ffffff;
+}
+
+ul {
+    list-style: none;
+    justify-content: center;
+    font-size: large;
+}
+
+ul#nav-list {
+    display: flex;
+    column-gap: 18rem;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0;
+}
+
+.curtain {
+    display: flex;
+    flex-direction: row;
+}
+
+.curtain .c {
+    background-color: #ffffff;
+    width: 320px;
+    height: 75px;
+    border-radius: 0% 0% 300% 300%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a.nav-link:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+/* content */
+.container{
+    height: auto;
+    margin: 10px 40px 0px 40px;
+    background-color: #D3D3D3;
+    border-radius: 30px 30px 0px 0px;
+    padding-top: 35px;
+}
+
+.promote {
+    background-color: #ffffff;
+    height: 200px;
+    color: #ffffff;
+    font-size: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.promote span {
+    color: #000000;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.promote span+span {
+    color: red;
+    font-weight: bold;
+}
+
+.pet-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 2% 0 0.5% 21%;
+}
+
+.pet-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 펫 팁 카드 */
+span {
+    display: inline-block;
+}
+
+.pet-tip {
+    width: 29rem;
+    height: 9.7rem;
+    margin: 2% 0 0 4%;
+    border: 2px solid #000;
+    border-radius: 1.1rem;
+    float: left;
+    background-color: rgb(222, 222, 222);
+    box-shadow:  -2px 4px 4px -2px #3f3f3f;
+}
+
+.tip-img {
+    width: 9.8rem;
+    height: 9.7rem;
+    margin: 0 0 0 16px;
+    float: left;
+}
+
+.tip-text {
+    margin: 10% 0 0 1.5%;
+    display: inline-block;
+}
+
+.tip-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tip-content {
+    font-size: 14px;
+    color: #515151;
+}
+
+
+/* tablet size */
+@media (max-width:780px) {
+
+/* nav */
+.nav {
+    padding: 1px;
     height: 40px;
     background-color: #ffffff;
 }
@@ -52,83 +188,11 @@ a.nav-link:hover {
     font-weight: bold;
     font-size: 15pt;
 }
-
-/* content */
-.container{
-    height: auto;
-    margin: 10px 40px 0px 40px;
-    background-color: #D3D3D3;
-    border-radius: 30px 30px 0px 0px;
-    padding-top: 35px;
 }
 
-.promote {
-    background-color: #000000;
-    height: 130px;
-    color: #ffffff;
-    font-size: 40px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-}
+/* mobile size */
+@media (max-width:480px) {
 
-.promote span {
-    color: #ffffff;
-}
-
-.promote span+span {
-    color: red;
-}
-
-.pet-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin: 2% 0 0.5% 12%;
-}
-
-.pet-row {
-    display: flex;
-    margin-left: 8%;
-    flex-wrap: wrap;
-    gap: 8%;
-}
-
-/* 펫 팁 카드 */
-span {
-    display: inline-block;
-}
-
-.pet-tip {
-    width: 29rem;
-    height: 9.7rem;
-    margin: 2% 0 0 4%;
-    border: 2px solid #000;
-    border-radius: 1.1rem;
-    float: left;
-    background-color: rgb(222, 222, 222);
-    box-shadow:  -2px 4px 4px -2px #3f3f3f;
-}
-
-.tip-img {
-    width: 9.8rem;
-    height: 9.7rem;
-    margin: 0 0 0 16px;
-    float: left;
-}
-
-.tip-text {
-    margin: 10% 0 0 1.5%;
-    display: inline-block;
-}
-
-.tip-title {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.tip-content {
-    font-size: 14px;
-    color: #515151;
 }
 
 /* footer */
