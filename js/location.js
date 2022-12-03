@@ -8,7 +8,10 @@ var data = [
    ,{img:'고양이4.jpg' ,loc:'피플앤펫(경기 분당구)' ,title:'고양이 유치원-피플앤펫'  ,desc:'고양이 좋아해,고양이 유치원'}
    ,{img:'강아지5.jpg' ,loc:'펫바버샵(경기 수정구)' ,title:'강아지 유치원-펫바버샵'  ,desc:'강아지는 냐옹,강아지 유치원'}
    ,{img:'강아지3.jpg' ,loc:'GOM 펫택시(경기 분당구)'  ,title:'강아지 유치원-GOM 펫택시' ,desc:'개껌천국! 강아지 유치원'}
-   ,{img:'고양이5.jpg' ,loc:'ㅎㅎ(서울 마포구)'  ,title:'강아지 유치원-ㅎ.ㅎ'  ,desc:'유림아 사랑해,강아지 유치원'}
+   ,{img:'고양이6.jpg' ,loc:'미림샵(서울 관악구)'  ,title:'고양이 유치원-미림샵'  ,desc:'미림과학고,고양이 유치원'}
+   ,{img:'강아지6.jpg' ,loc:'왈왈집(경기 구리시)'  ,title:'강아지 유치원-왈왈집'  ,desc:'시끄러워!,강아지 유치원'}
+   ,{img:'고양이7.jpg' ,loc:'냥냥네코(제주 서귀포시)'  ,title:'고양이 유치원-냥냥네코'  ,desc:'냥냥펀치,고양이 유치원'}
+   
    ];
 
 const setData = function(opt,searchVal){
@@ -35,16 +38,16 @@ const setData = function(opt,searchVal){
     $('div.container3').empty();
     data_tmp.map(i=>{
         let html = '';
-        html+='\n   <div class="pet">';
-        html+='\n       <div class="img">';
-        html+='\n           <img src="img/'+i.img+'" alt="">';
-        html+='\n       </div>';
-        html+='\n       <div class="text">';
-        html+='\n           <p class="p1">'+i.loc+'<br/></p>';
-        html+='\n           <p class="p2">'+i.title+'<br/></p>';
-        html+='\n           <p class="p3">'+i.desc+'</p>';
-        html+='\n       </div>';
-        html+='\n   </div>'; 
+        html+='\n	<div class="pet">';
+        html+='\n	    <div class="img">';
+        html+='\n	        <img src="img/'+i.img+'" alt="">';
+        html+='\n	    </div>';
+        html+='\n	    <div class="text">';
+        html+='\n	        <p class="p1">'+i.loc+'<br/></p>';
+        html+='\n	        <p class="p2">'+i.title+'<br/></p>';
+        html+='\n	        <p class="p3">'+i.desc+'</p>';
+        html+='\n	    </div>';
+        html+='\n	</div>'; 
         $('div.container3').append(html);     
     });
 };
@@ -74,4 +77,3 @@ $(document).ready(function(){
 
     
 
-    
