@@ -56,10 +56,86 @@ a.nav-link:hover {
 /* content */
 .container{
     height: auto;
-    margin: 30px 40px 0px 40px;
+    margin: 10px 40px 0px 40px;
     background-color: #D3D3D3;
     border-radius: 30px 30px 0px 0px;
-    padding-top: 35px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/* filter */
+.filter-container {
+    width: 15.1875rem;
+    height: 40px;
+    background-color: #ffffff;
+    margin: 2% 0 0 12.5%;
+    border-radius: 0.3rem;
+}
+
+.filter-img {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    float: left;
+}
+
+.filter-text {
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* card */
+.card-white-bg {
+    width: 15.5rem;
+    background-color: white;
+    border-radius: 0.3rem;
+}
+
+.kg-title{
+    font-size: 14px;
+    color: #525252;
+}
+
+.kg-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.kg-content {
+    font-size: 15px;
+    color: #929292;
+    margin-top: 5px;
+}
+
+.kg-img {
+    width: 15.5rem;
+    height: 12rem;
+}
+
+.kg-info {
+    margin: 0 2% 0 2%;
+}
+
+.card-row {
+    display: flex;
+    flex-flow: wrap;
+    gap: 1.875rem 1.87rem;
+    width: 100%;
+    margin: 4% 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-row2 {
+    display: flex;
+    flex-flow: wrap;
+    gap: 1.875rem 1.87rem;
+    width: 100%;
+    margin: 3% 0 0 0;
+    justify-content: center;
+    align-items: center;
 }
 
 /* footer */
