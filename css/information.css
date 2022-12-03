@@ -64,12 +64,13 @@ a.nav-link:hover {
     padding-bottom: 30px;
 }
 
+@media screen and (min-width:1024px) {
 /* filter */
 .filter-container {
     width: 15.1875rem;
     height: 40px;
     background-color: #ffffff;
-    margin: 2% 0 0 14%;
+    margin: 2% 0 0 4%;
     border-radius: 0.3rem;
 }
 
@@ -89,30 +90,30 @@ a.nav-link:hover {
 
 /* card */
 .card-white-bg {
-    width: 15.5rem;
+    width: 200px;
     background-color: white;
     border-radius: 0.3rem;
 }
 
 .kg-title{
-    font-size: 14px;
+    font-size: 12px;
     color: #525252;
 }
 
 .kg-name {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: bold;
 }
 
 .kg-content {
-    font-size: 15px;
+    font-size: 12px;
     color: #929292;
     margin-top: 5px;
 }
 
 .kg-img {
-    width: 15.5rem;
-    height: 12rem;
+    width: 200px;
+    height: 190px;
 }
 
 .kg-info {
@@ -122,7 +123,7 @@ a.nav-link:hover {
 .card-row {
     display: flex;
     flex-flow: wrap;
-    gap: 5rem;
+    gap: 2rem;
     width: 100%;
     margin: 4% 0 0 0;
     justify-content: center;
@@ -132,18 +133,19 @@ a.nav-link:hover {
 .card-row2 {
     display: flex;
     flex-flow: wrap;
-    gap: 5rem;
+    gap: 2rem;
     width: 100%;
-    margin: 3% 0 0 0;
+    margin: 4% 0 0 0;
     justify-content: center;
     align-items: center;
 }
-
+}
 
 /* 테블릿 */
-@media screen and (min-width:768px) and (max-width:1023px){
+@media screen and (min-width:768px)
+and (max-width:1023px){
     .nav {
-        height: 30px;
+        height: 45px;
     }
     
     ul#nav-list {
@@ -194,7 +196,7 @@ a.nav-link:hover {
         width: 15.1875rem;
         height: 40px;
         background-color: #ffffff;
-        margin: 2% 0 0 14%;
+        margin: 2% 0 0 4%;
         border-radius: 0.3rem;
     }
     
@@ -214,30 +216,30 @@ a.nav-link:hover {
     
     /* card */
     .card-white-bg {
-        width: 15.5rem;
+        width: 200px;
         background-color: white;
         border-radius: 0.3rem;
     }
     
     .kg-title{
-        font-size: 14px;
+        font-size: 12px;
         color: #525252;
     }
     
     .kg-name {
-        font-size: 16px;
+        font-size: 13px;
         font-weight: bold;
     }
     
     .kg-content {
-        font-size: 15px;
+        font-size: 12px;
         color: #929292;
         margin-top: 5px;
     }
     
     .kg-img {
-        width: 15.5rem;
-        height: 12rem;
+        width: 200px;
+        height: 190px;
     }
     
     .kg-info {
@@ -247,7 +249,7 @@ a.nav-link:hover {
     .card-row {
         display: flex;
         flex-flow: wrap;
-        gap: 5rem;
+        gap: 1rem;
         width: 100%;
         margin: 4% 0 0 0;
         justify-content: center;
@@ -257,18 +259,56 @@ a.nav-link:hover {
     .card-row2 {
         display: flex;
         flex-flow: wrap;
-        gap: 5rem;
+        gap: 1rem;
         width: 100%;
         margin: 3% 0 0 0;
         justify-content: center;
         align-items: center;
     }
+
+    .pet{
+        width: 250px;
+        height: 290px;
+        background-color: whitesmoke;
+        margin: 30px;
+    }
+    img{
+        width: 250px;
+        height: 200px;
+    }
+    .text{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    .p1{margin: auto;padding: auto; font-weight:bold ;}
+    .p2{margin: auto;padding: auto; font-weight:bold ;}
+    .p3{margin: 4px 0 0 0;padding: auto; color: grey ;}
 }
 
 
 /* 모바일 */
-@media screen and (min-width:767px){
-
+@media screen and ( max-width:767px){
+    .pet{
+        width: 250px;
+        height: 290px;
+        background-color: whitesmoke;
+        margin: 30px;
+    }
+    img{
+        width: 250px;
+        height: 200px;
+    }
+    .text{
+        display: block;
+        text-align: center;
+        justify-content: center;
+        margin: 10px;
+    }
+    .p1{margin: auto;padding: auto; font-weight:bold ;}
+    .p2{margin: auto;padding: auto; font-weight:bold ;}
+    .p3{margin: 4px 0 0 0; padding: auto; color: grey;}
 }
 
 
