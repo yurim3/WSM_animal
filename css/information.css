@@ -141,23 +141,12 @@ a.nav-link:hover {
 /* 테블릿 */
 @media screen and (min-width:768px) and (max-width:1023px){
     .nav {
-        padding: 1px;
-        height: 40px;
-        background-color: #ffffff;
-    }
-    
-    ul {
-        list-style: none;
-        justify-content: center;
-        font-size: large;
+        height: 30px;
     }
     
     ul#nav-list {
         display: flex;
-        column-gap: 14rem;
-        justify-content: center;
-        flex-direction: row;
-        padding: 0;
+        column-gap: 8rem;
     }
     
     .curtain {
