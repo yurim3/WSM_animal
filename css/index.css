@@ -4,6 +4,7 @@ body {
     overflow: auto;
 }
 
+/* 데스크톱 */
 /* nav */
 .nav {
     padding: 1px;
@@ -85,9 +86,12 @@ a.nav-link:hover {
 }
 
 .pet-title {
+    width: 1155.2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 22px;
     font-weight: bold;
-    margin: 2% 0 0.5% 21%;
 }
 
 .pet-row {
@@ -136,63 +140,143 @@ span {
     color: #515151;
 }
 
+/* 테블릿 */
+@media screen and (min-width:768px) and (max-width:1023px){
+    .curtain .c {
+        background-color: #ffffff;
+        width: 320px;
+        height: 40px;
+        border-radius: 0% 0% 300% 300%;
+    }
 
-/* tablet size */
-@media (max-width:780px) {
+    ul#nav-list {
+        display: flex;
+        column-gap: 9rem;
+        justify-content: center;
+        flex-direction: row;
+        padding: 0;
+    }
 
-/* nav */
-.nav {
-    padding: 1px;
-    height: 40px;
-    background-color: #ffffff;
+    a.nav-link {
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    /* content */
+    .promote {
+        height: 100px;
+        font-size: 40px;
+    }
+
+    .promote span {
+        font-size: 35px;
+    }
+
+    .pet-title {
+        width: 688px;
+        font-size: 15px;
+        margin: 5% 0 0.5% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pet-tip {
+        width: 24rem;
+        height: 7rem;
+        margin: 2% 0 0 4%;
+    }
+    
+    /* 펫 팁 카드 */
+    .tip-img {
+        width: 98px;
+        height: 97px;
+        margin: 7px 0 7px 10px;
+    }
+
+    .tip-text {
+        margin: 6% 0 0 3%;
+    }
+
+    .tip-title {
+        font-size: 16px;
+    }
+
+    .tip-content {
+        font-size: 13px;
+    }
 }
 
-ul {
-    list-style: none;
-    justify-content: center;
-    font-size: large;
-}
+/* 모바일 */
+@media screen and (min-width:767px){
+    .curtain .c {
+        width: 320px;
+        height: 30px;
+    }
 
-ul#nav-list {
-    display: flex;
-    column-gap: 14rem;
-    justify-content: center;
-    flex-direction: row;
-    padding: 0;
-}
+    ul#nav-list {
+        display: flex;
+        column-gap: 6rem;
+    }
 
-.curtain {
-    display: flex;
-    flex-direction: row;
-}
+    a.nav-link {
+        font-size: 18px;
+    }
 
-.curtain .c {
-    background-color: #ffffff;
-    width: 320px;
-    height: 75px;
-    border-radius: 0% 0% 300% 300%;
-}
+    /* content */
+    .promote {
+        height: 80px;
+        font-size: 30px;
+    }
 
-a {
-    text-decoration: none;
-    color: black;
-}
+    .promote span {
+        font-size: 30px;
+    }
 
-a.nav-link {
-    color: black;
-    font-weight: bold;
-}
+    /* .pet-title {
+        width: 687.2px;
+        font-size: 15px;
+        margin: 5% 0 1% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
 
-a.nav-link:hover {
-    color: black;
-    font-weight: bold;
-    font-size: 15pt;
-}
-}
+    .pet-title {
+        /* width: 687.2px; */
+        width: 100%;
+        font-size: 20px;
+        margin: 3% 0 1% 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .pet-tip {
+        width: 22rem;
+        height: 6rem;
+        margin: 2% 0 0 4%;
+    }
+    
+    /* 펫 팁 카드 */
+    .tip-img {
+        width: 78px;
+        height: 77px;
+        margin: 7px 0 7px 10px;
+    }
 
-/* mobile size */
-@media (max-width:480px) {
+    .tip-text {
+        margin: 5.5% 0 0 3.5%;
+    }
 
+    .tip-title {
+        font-size: 15px;
+    }
+
+    .tip-content {
+        font-size: 13px;
+    }
 }
 
 /* footer */
