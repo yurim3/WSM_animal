@@ -1,5 +1,5 @@
 # [유치원 다녀왔습니다](https://yurim3.github.io/WSM_animal/)
-<img src="https://github.com/yurim3/WSM_animal/issues/1#issue-1474058771">
+<img src="https://github.com/yurim3/WSM_animal/issues/1#issue-1474058771"> #### <- 데모 동영상 보러가기
 
 프로젝트 기간 -  2022.11.24 ~ 2022.12.03
 
