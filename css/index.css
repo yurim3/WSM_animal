@@ -33,6 +33,7 @@ a.nav-link {
     font-weight: bold;
     font-size: 20px;
 }
+
 a.nav-link:hover {
     color: red;
     font-weight: bold;
@@ -205,6 +206,19 @@ span {
     .tip-content {
         font-size: 13px;
     }
+
+    ul#nav-list {
+        display: flex;
+        column-gap: 9rem;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .curtain .c {background-color: #ffffff;
+        width: 320px;
+        height: 75px;
+        border-radius: 0% 0% 300% 300%;
+    }
 }
 
 /* 모바일 */
@@ -276,12 +290,27 @@ span {
     .tip-content {
         font-size: 13px;
     }
+
+    ul#nav-list {
+        display: flex; /* 기본값: 수평 방향 */
+        column-gap: 12rem; /*25px*/
+        justify-content: center;
+        flex-direction: row;
+        padding: 0;
+    }
+    
+    .curtain .c {
+        background-color: #ffffff;
+        width: 320px;
+        height: 60px;
+        border-radius: 0% 0% 300% 300%;
+    }
 }
 
 @media (max-width:767px) {
     .curtain .c {
         width: 320px;
-        height: 30px;
+        height: 20px;
     }
 
     ul#nav-list {
@@ -300,7 +329,7 @@ span {
     }
 
     .promote span {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     /* .pet-title {
@@ -332,19 +361,19 @@ span {
     .tip-img {
         width: 78px;
         height: 77px;
-        margin: 7px 0 7px 10px;
+        margin: 7px 0 7px 8px;
     }
 
     .tip-text {
-        margin: 5.5% 0 0 3.5%;
+        margin: 6.5% 0 0 3.5%;
     }
 
     .tip-title {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .tip-content {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 
