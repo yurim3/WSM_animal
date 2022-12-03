@@ -63,7 +63,7 @@ a.nav-link {
 @media screen and (min-width:1024px) {
     ul#nav-list {
         display: flex; /* 기본값: 수평 방향 */
-        column-gap: 12.5rem; /*25px*/
+        column-gap: 11rem; /*25px*/
         justify-content: center;
         flex-direction: row;
     }
@@ -121,13 +121,13 @@ a.nav-link {
     }
     /*카드*/
 .pet{
-    width: 250px;
+    width: 255px;
     height: 290px;
     background-color: whitesmoke;
     margin: 30px;
 }
 img{
-    width: 250px;
+    width: 255px;
     height: 200px;
 }
 .text{
